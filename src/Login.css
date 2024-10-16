@@ -1,0 +1,69 @@
+/* Login.css */
+.login-container {
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .login-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .login-card p {
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .form-control {
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  .btn-primary {
+    background-color: #6a11cb;
+    border-color: #6a11cb;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2575fc;
+    border-color: #2575fc;
+  }
+  
+  .forgot-password-link {
+    color: #6a11cb;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  .form-check-label {
+    margin-left: 5px;
+  }
+  
+  .login-card a {
+    color: #6a11cb;
+  }
+  
+  .login-card a:hover {
+    text-decoration: underline;
+  }
+  
